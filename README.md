@@ -23,8 +23,7 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-Link to Required Stories: http://g.recordit.co/ICerCSTd3c.gif
-<img src='http://g.recordit.co/ICerCSTd3c.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+Link to Required Stories: http://g.recordit.co/ICerCSTd3c.gif (story is too large to show) \n
 
 Bonus Story:
 <img src='http://g.recordit.co/ozwTuALFg8.gif' />
