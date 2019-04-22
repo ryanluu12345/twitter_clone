@@ -25,6 +25,7 @@ Here's a walkthrough of implemented user stories:
 <img src='http://g.recordit.co/jhzm53fqAc.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 Here's a walkthrough of bonus user stories:
+
 <img src='http://g.recordit.co/Xvmmc090iV.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 # Project 3 - Twitter Clone
