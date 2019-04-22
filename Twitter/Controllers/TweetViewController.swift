@@ -9,10 +9,11 @@
 import UIKit
 
 class TweetViewController: UIViewController {
-
     @IBOutlet weak var tweetTextView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        tweetTextView.becomeFirstResponder()
     }
     
     @IBAction func onCancelTap(_ sender: Any) {
