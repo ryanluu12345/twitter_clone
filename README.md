@@ -14,8 +14,8 @@ The following **required** functionality is completed:
 
 The following **bonus** features are implemented:
 
-- [ ] When composing a tweet, user sees a countdown for the number of characters remaining for the tweet (out of 140) (2pts)
-- [ ] User can view their profile in a profile tab. (3pts)
+- [x] When composing a tweet, user sees a countdown for the number of characters remaining for the tweet (out of 140) (2pts)
+- [x] User can view their profile in a profile tab. (3pts)
 - [ ] User sees embedded images in tweet if available. (3pts)
 
 ## Video Walkthrough
@@ -23,6 +23,9 @@ The following **bonus** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='http://g.recordit.co/jhzm53fqAc.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+Here's a walkthrough of bonus user stories:
+<img src='http://g.recordit.co/Xvmmc090iV.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 # Project 3 - Twitter Clone
 
