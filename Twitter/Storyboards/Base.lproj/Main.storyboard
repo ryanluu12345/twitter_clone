@@ -165,9 +165,17 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="140/140" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ds1-lb-oI5">
+                                <rect key="frame" x="296.5" y="327" width="62.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="Ds1-lb-oI5" firstAttribute="top" secondItem="v5C-yA-5Jv" secondAttribute="bottom" constant="8" id="1k5-ha-kDO"/>
+                            <constraint firstItem="Slr-S4-tUi" firstAttribute="trailing" secondItem="Ds1-lb-oI5" secondAttribute="trailing" constant="16" id="Afd-uG-EtI"/>
                             <constraint firstItem="v5C-yA-5Jv" firstAttribute="leading" secondItem="Slr-S4-tUi" secondAttribute="leading" constant="16" id="JMO-SF-iDu"/>
                             <constraint firstItem="Slr-S4-tUi" firstAttribute="trailing" secondItem="v5C-yA-5Jv" secondAttribute="trailing" constant="16" id="Tuw-Bv-4i5"/>
                             <constraint firstItem="v5C-yA-5Jv" firstAttribute="top" secondItem="Slr-S4-tUi" secondAttribute="top" constant="19" id="hSS-0K-Zrc"/>
@@ -189,6 +197,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="characterCountLabel" destination="Ds1-lb-oI5" id="ge3-Li-zvg"/>
                         <outlet property="tweetTextView" destination="v5C-yA-5Jv" id="OtA-T7-Sbx"/>
                     </connections>
                 </viewController>
