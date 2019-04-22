@@ -32,9 +32,10 @@ class TweetViewController: UIViewController, UITextViewDelegate {
         // Construct what the new text would be if we allowed the user's latest edit
         let newText = NSString(string: textView.text!).replacingCharacters(in: range, with: text)
         
-        // TODO: Update Character Count Label
+        // Update Character Count Label
         characterCountLabel.text = String(characterLimit - newText.count) + "/" + String(characterLimit)
         
+        // Adds warning red outline for character limit
         if (newText.characters.count > characterLimit) {
             tweetTextView.layer.borderColor = UIColor.red.cgColor
         }
